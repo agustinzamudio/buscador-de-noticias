@@ -8,7 +8,7 @@ En el directorio del proyecto, puede ejecutar:
 
 ## `npm install`
 
-Para instalar todas las dependecias.\
+Para instalar todas las dependecias.
 
 ### `npm run dev`
 
@@ -17,4 +17,4 @@ Abre [http://localhost:5173](http://localhost:5173) para verlo en su navegador.
 
 ### `npm test`
 
-Para realizar todos los test.\
+Para realizar todos los test.
