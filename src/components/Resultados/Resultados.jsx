@@ -8,4 +8,5 @@ const ResultadosTotal = (props) => {
     </p>
   );
 };
+
 export default ResultadosTotal;
