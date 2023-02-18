@@ -3,7 +3,7 @@ import "./Resultados.css";
 const ResultadosTotal = (props) => {
   return (
     <p className="resultados">
-      Estás viendo {Math.min(10, props.NoticiasTotal)} noticias de{" "}
+      Está viendo {Math.min(10, props.NoticiasTotal)} noticias de{" "}
       {props.NoticiasTotal}{" "}
     </p>
   );

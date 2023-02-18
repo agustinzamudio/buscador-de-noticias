@@ -1,6 +1,7 @@
+import { useEffect, useState } from "react";
+import { useSearchParams } from "react-router-dom";
 import { Container } from "@mui/material";
-import { useEffect } from "react";
-import { useState } from "react";
+
 import Buscador from "../components/Buscador/Buscador";
 import Loading from "../components/Loading/Loading";
 import Paginador from "../components/Paginador/Paginador";
@@ -8,7 +9,6 @@ import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import { ListaNoticias } from "../components/Noticias/Noticias";
 import { getListadoNoticias } from "../services/noticias";
-import { useSearchParams } from "react-router-dom";
 import NoResultados from "../components/Errores/NoResultados";
 import ResultadosTotal from "../components/Resultados/Resultados";
 
