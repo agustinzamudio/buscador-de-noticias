@@ -8,7 +8,7 @@ import Paginador from "../components/Paginador/Paginador";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import { ListaNoticias } from "../components/Noticias/Noticias";
-import { getListadoNoticias } from "../services/noticias";
+import { getListadoNoticias } from "../api/noticias";
 import NoResultados from "../components/Errores/NoResultados";
 import ResultadosTotal from "../components/Resultados/Resultados";
 
