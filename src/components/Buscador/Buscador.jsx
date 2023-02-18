@@ -5,7 +5,7 @@ import IconButton from "@mui/material/IconButton";
 import SearchIcon from "@mui/icons-material/Search";
 
 const Buscador = ({ onBuscar }) => {
-  const [criterioBusqueda, setCriterioBusqueda] = useState();
+  const [criterioBusqueda, setCriterioBusqueda] = useState("");
   const [botonActivado, setBotonActivado] = useState(false);
 
   return (
